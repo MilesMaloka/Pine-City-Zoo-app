@@ -153,3 +153,9 @@ body {
     gap: 20px;
     padding: 20px;
 }
+
+/* all links styled */
+a{
+    text-decoration: none;
+    color: inherit;
+}
