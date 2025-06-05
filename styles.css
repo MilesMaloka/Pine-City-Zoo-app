@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url('./AppAcademyWeek3-main/AppAcademyWeek3-main/pineCityZooImages/images/wood-bg.png');
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.header-logo{
+    width: 700px;
+    height: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #235a29; /* green */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: #fff;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: Space-between;
+}
+
+.top-nav ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+    align-items: Space-between;
+}
+.top-nav ul li a {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: Space-between;
+}
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #235a29; /* green */
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.bottom-nav ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+    align-items: Space-between;
+}
+.bottom-nav ul li a {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+   
+    align-items: Space-between;
+}
+
+.map-img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
