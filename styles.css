@@ -86,3 +86,70 @@ body {
     display: block;
     margin: 0 auto;
 }
+/* card section */
+.animals-container {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.animals-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('./AppAcademyWeek3-main/AppAcademyWeek3-main/pineCityZooImages/images/map-blur.png') no-repeat center center;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.animals-container h1 {
+    text-align: center;
+    color: #235a29;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.animal-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 20px;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    transform: translateY(0);
+}
+
+.animal-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+.animal-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.animal-card h2 {
+    color: #235a29;
+    margin: 10px 0;
+}
+
+.animal-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.animals-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
