@@ -194,3 +194,109 @@ a{
     font-size: 1.2rem;
 }
 
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .top-nav ul,
+    .bottom-nav ul {
+        gap: 80px;
+    }
+    .animal-section {
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+    .top-nav ul,
+    .bottom-nav ul {
+        gap: 40px;
+    }
+    .animal-section {
+        width: 98%;
+        padding: 10px;
+    }
+    .animal-section img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-logo {
+        width: 90vw;
+        max-width: 350px;
+    }
+    .top-nav,
+    .bottom-nav {
+        flex-direction: row;
+        padding: 10px 0;
+    }
+    .top-nav ul,
+    .bottom-nav ul {
+        flex-direction: row;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .animals-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+    }
+    .animal-card {
+        margin: 10px auto;
+        max-width: 95vw;
+    }
+    .animal-section {
+        width: 100%;
+        padding: 5px;
+    }
+    .animal-section h1 {
+        font-size: 2rem;
+    }
+    .animal-section p {
+        font-size: 1rem;
+    }
+    .map-img {
+        width: 100vw;
+        height: calc(100vh - 70px); /* Adjust 70px to your header height */
+        object-fit: cover;
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 5px 0;
+    }
+    .header-logo {
+        width: 98vw;
+        max-width: 220px;
+    }
+    .animal-section h1 {
+        font-size: 1.3rem;
+    }
+    .animal-section p {
+        font-size: 0.95rem;
+    }
+    .animal-card img {
+        height: 140px;
+    }
+    .map-img {
+        width: 100vw;
+        height: calc(100vh - 60px); /* Adjust 60px to your mobile header height */
+        object-fit: cover;
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+}
