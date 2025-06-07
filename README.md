@@ -3,7 +3,7 @@
 Zoo Super App is a comprehensive platform designed to enhance your zoo experience. It offers features for visitors, staff, and administrators, making zoo management and exploration seamless and engaging.
 
 ## Preview
-Open your browser and go to `https://pinezoobymiles.netlify.app`.
+Simply click here 👉 https://pinezoobymiles.netlify.app.
 
 ## Features
 
